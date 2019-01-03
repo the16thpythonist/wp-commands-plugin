@@ -20,9 +20,9 @@ echo "ACTUALLY INSTALLING DEPENDENCIES\n";
 echo exec("cd " . __DIR__ . "; php composer.phar update");
 
 // Removing all the stuff again
-echo "\nREMOVING THE TEMPORARY FILES";
+echo "\nREMOVING THE TEMPORARY FILES\n";
 $composer_phar_file_path = __DIR__ . '/composer.phar';
 unlink($composer_setup_file_path);
 unlink($composer_phar_file_path);
 
-echo "DONE";
+echo "DONE\n";
