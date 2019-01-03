@@ -8,6 +8,7 @@
  * Author URI: google.com
  * License: GPLv2 or later
  */
+namespace WpCommands;
 
 // We need to include the autoload from composer
 require_once __DIR__ . '/vendor/autoload.php';
