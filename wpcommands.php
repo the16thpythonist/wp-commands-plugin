@@ -10,7 +10,7 @@
  */
 
 // We need to include the autoload from composer
-require_once 'vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 use the16thpythonist\Wordpress\WpCommands;
 use the16thpythonist\Command\Command;

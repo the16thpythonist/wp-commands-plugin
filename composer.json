@@ -1,0 +1,31 @@
+{
+  "name": "wp-commands-plugin",
+  "version": "0.0.0.0",
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type":  "vcs",
+      "url": "https://github.com/the16thpythonist/wp_commands.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/wp-pi-logging.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/wp-cpt-lib.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/wp-data-safe.git"
+    }
+  ],
+  "require": {
+    "the16thpythonist/wp-commands": "dev-master"
+  },
+  "extra": {
+    "installer-paths": {
+      "inc/{$name}": ["the16thpythonist/wp-commands"]
+    }
+  }
+}
