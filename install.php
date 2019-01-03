@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-echo "This script will install the required composer packages for the plugin 'Wordpress Commands' \n";
+echo "This script will install the required composer packages for the plugin \n";
 
 echo "INSTALLING COMPOSER \n\n";
 
